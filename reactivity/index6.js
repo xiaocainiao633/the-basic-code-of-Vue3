@@ -1,5 +1,4 @@
 // Ref的示例 以及compouted的实现思路
-
 let user = {
   firstName: "John",
   lastName: "Doe",
@@ -70,6 +69,8 @@ function computed(getter) {
   });
   return result;
 }
+
+console.log("----ref 和 computed 示例----");
 
 // 我们的数据可以改为：
 let product = reactive({ price: 5, quantity: 2 });
